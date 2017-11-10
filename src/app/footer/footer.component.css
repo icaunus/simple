@@ -3,3 +3,8 @@
   width: 100%;
   border: 1px solid black;
 }
+
+span {
+  width: 33%;
+  float: left;
+}
