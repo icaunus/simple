@@ -1,0 +1,7 @@
+.rightmenu {
+  float: left;
+  width: 26%; 
+  padding-top: 5px;
+  margin: 0 7px 20px 0;
+  border: 1px solid black;
+}

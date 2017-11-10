@@ -1,0 +1,13 @@
+ul {
+  list-style-type : none;
+  text-align : center;
+}
+
+.leftmenu {
+  float : left;
+  width : 5%;
+  left : 0px;  
+  padding : 1px;
+  border : 1px solid black;
+  margin : 1px;
+}

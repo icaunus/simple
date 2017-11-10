@@ -1,0 +1,10 @@
+.simple {
+  position: relative;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .leftmenu, .central, .rightmenu {
+    width: 100%;
+  }
+}
