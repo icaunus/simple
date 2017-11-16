@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { SimpleComponent } from './app.component';
+import { LinksService } from './leftmenu/links.service';
 import { LeftMenuComponent } from './leftmenu/leftmenu.component';
 import { RightMenuComponent } from './rightmenu/rightmenu.component';
 import { CentralComponent } from './central/central.component';
@@ -20,7 +21,7 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [LinksService],
   bootstrap: [SimpleComponent]
 })
 export class AppModule {
